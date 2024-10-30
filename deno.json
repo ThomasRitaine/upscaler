@@ -1,0 +1,9 @@
+{
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "dev": "deno run --watch --allow-read --allow-write --allow-net --allow-ffi --allow-env script.ts"
+  },
+  "imports": {
+    "sharp": "npm:sharp@^0.33.5"
+  }
+}
